@@ -45,9 +45,9 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
-            <Route path="/TextUtils/about" element={ <About mode={mode}/>}>
+            <Route path="/TextUtils/about/" element={ <About mode={mode}/>}>
             </Route>
-            <Route path="/TextUtils/"  element={ <Form
+            <Route path="/TextUtils"  element={ <Form
                 showAlert={showAlert}
                 heading="Enter the Text to analyze"
                 mode={mode}

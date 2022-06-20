@@ -28,13 +28,13 @@ export default function Navbar(props) {
               <Link
                 className="nav-link active"
                 aria-current="page"
-                to="/TextUtils/"
+                to="/TextUtils"
               >
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" to="/TextUtils/about">
+              <Link className="nav-link active" to="/TextUtils/about/">
                 {props.aboutText}
               </Link>
             </li>
